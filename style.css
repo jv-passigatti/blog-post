@@ -1,0 +1,139 @@
+body {
+    font-family: mukta, sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Bitter, serif;
+    font-weight: 500;
+}
+
+.container {
+    background-color: blueviolet;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.container h1, .container p {
+    text-align: center;
+    width: 900px;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+}
+
+.container p {
+    margin: 40px 0;
+}
+
+hr {
+    color: white;
+    width: 50%;
+}
+
+.conteudo {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.info {
+    text-align: center;
+    font-family: Bitter, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.info span {
+    color: orangered;
+}
+
+.conteudo h2 {
+    font-size: 50px;
+    letter-spacing: -0.5px;
+}
+
+.conteudo .dif {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+.conteudo blockquote {
+    font-style: italic;
+    font-size: 14px;
+    margin: 32px;
+    padding-left: 16px;
+    border-left: 2px solid orangered;
+}
+
+.conteudo blockquote span {
+    display: block;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.conteudo hr {
+    width: 100%;
+}
+
+.conteudo h3 {
+    font-size: 38px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+}
+
+.conteudo h4 {
+    font-size: 30px;
+    letter-spacing: 0.25px;
+}
+
+.conteudo h5 {
+    font-size: 24px;
+    letter-spacing: 025.px;
+}
+
+.conteudo h6 {
+    font-size: 20px;
+    letter-spacing: 0.25px;
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+footer ul {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 28px 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 16px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
