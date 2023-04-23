@@ -1,0 +1,1 @@
+This is a simple web post made during Colt Steele's HTML & CSS bootcamp.
